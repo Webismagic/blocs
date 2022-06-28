@@ -2,9 +2,11 @@
 <body>
   <h2>Construction de blocs dynamiques</h2>
 <p>Pour remplacer les instructions sous forme de texte en image, il faut insérer deux fichiers Javascript et activer le remplacement du bloc par un code javascript.</p>
-<code>    &lt;script src="https://scratchblocks.github.io/js/scratchblocks-v3.6.0-min.js"&gt;
+<div>
+  <code>    &lt;script src="https://scratchblocks.github.io/js/scratchblocks-v3.6.0-min.js"&gt;<br>
 &lt;script src="https://scratchblocks.github.io/js/translations-all-v3.6.0.js"&gt;</code>
-
+  </div>
+  <div>
 <code>&lt;script&gt;
 scratchblocks.renderMatching('pre.blocks', {
 style:     'scratch3',   // Optional, defaults to 'scratch2'.
@@ -12,10 +14,10 @@ languages: ['en', 'fr'], // Optional, defaults to ['en'].
 scale: 0.8,                // Optional, defaults to 1
 });
 &lt;/script&gt;</code>
-
-Le code html <strong>&lt;pre class='blocks'&gt;instruction&lt;/pre&gt;</strong> est alors traduit en image.<code></code>
+  </div>
+<p>Le code html <strong>&lt;pre class='blocks'&gt;instruction&lt;/pre&gt;</strong> est alors traduit en image.</p>
 <p>
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGLXPKL" data-user="Webismagic" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="600" data-default-tab="html,result" data-slug-hash="bGLXPKL" data-user="Webismagic" style="height: 600px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/Webismagic/pen/bGLXPKL">
   Scratch-Blocks</a> by Webismagic (<a href="https://codepen.io/Webismagic">@Webismagic</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
