@@ -3,6 +3,8 @@
 ## Microbit
 Création dynamique de blocs makecode.microbit.org
 
+[Exemple](https://webismagic.github.io/blocs/microbit/)
+
 ### microbit-export
 
 [Try it out](https://webismagic.github.io/blocs/microbit/render/)
