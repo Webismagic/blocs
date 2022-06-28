@@ -11,4 +11,6 @@ Création dynamique de blocs Scratch
 
 [Try it out](https://webismagic.github.io/blocs/scratch/)!
 
+[Création et traduction des blocs](http://scratchblocks.github.io)
+
 
