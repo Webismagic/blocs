@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Convert/render microbit JavaScript code to SVG.">
+    <title>Microbit to SVG</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/svg+xml" href="icon.svg">
+</head>
+<body>
+    <header>
+        <h1>microbit-export</h1>
+        <span id="subtitle">v1.0.0 by <a href="https://github.com/rileysommerville">Riley Sommerville</a></span>
+        <ul id="links">
+            <li><a href="https://github.com/rileysommerville/microbit-export#usage">Help</a></li>
+            <li><a href="https://github.com/rileysommerville/microbit-export">GitHub</a></li>
+        </ul>
+    </header>
+    <main>
+        <div id="editor">
+            <textarea id="code" autofocus></textarea>
+            <button class="btn-working" id="render" onclick="render()" disabled>Loading renderer...</button>
+            <button id="download" onclick="download()" disabled>Download SVG</button>
+
+        </div>
+        <div id="preview">
+
+        </div>
+    
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
