@@ -4,9 +4,9 @@
 Création dynamique de blocs makecode.microbit.org
 
 ### microbit-export
+
 [Try it out](https://webismagic.github.io/blocs/microbit/render/)
 
-[Local](https://webismagic.github.io/blocs/microbit/render/)
 
 ## Scratch
 Création dynamique de blocs Scratch
